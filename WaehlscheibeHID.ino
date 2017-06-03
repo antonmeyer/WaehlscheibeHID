@@ -67,7 +67,8 @@ void loop()
 			iwv_old = iwvcnt;
 			//Serial.print(iwv_old);
 			if (iwv_old > 1) {
-				delay(5);
+				delay(5); //seems necessary , otherwise overrun the USB??
+				//delete the previous digit, this results to the count up effect
 				Keyboard.write(KEY_BACKSPACE);
 				delay(5);
 			};
