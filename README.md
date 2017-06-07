@@ -1,6 +1,6 @@
 # WaehlscheibeHID
 This software is for an arduino pro micro (atmega32u4).
-It acts as an USB keyboard and converts impulses from a rotory disk
+It acts as an USB keyboard and converts impulses from a rotary disk
 into digits transmitted via USB to any software supporting keyboard.
 
 impulse contact (nsi) is connected to pin 10 and nsa to pin 9. nsa get closed
