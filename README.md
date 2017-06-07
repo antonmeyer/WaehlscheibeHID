@@ -1,4 +1,4 @@
-# WaehlscheibeHID
+# WählscheibeHID
 This software is for an arduino pro micro (atmega32u4).
 It acts as an USB keyboard and converts impulses from a rotary disk
 into digits transmitted via USB to any software supporting keyboard.
@@ -14,7 +14,7 @@ for pin 9 and 10.
 
 If you connect it to your computer (OS does not matter, as long it supports USB HID), you might get
 an error message. This is for the programming serial line, also implemented on that USB device.
-You can ignore that, after ..9 seconds rotory disk keyboard should be ready.
+You can ignore that, after ..9 seconds rotary disk keyboard should be ready.
 
 And if you think twice, impulse dialing is digital dialing. since 1913 (or so)
 
