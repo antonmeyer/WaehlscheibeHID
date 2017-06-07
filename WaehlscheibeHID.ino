@@ -5,8 +5,8 @@
 
 //length of the level before valid - reflect the measurement period
 static const byte samplerate = 5; // ms
-static const byte lpLIMIT = 20 / samplerate;
-static const byte hpLIMIT = 40 / samplerate;
+static const byte lpLIMIT = 20 / samplerate; //detection limit impulse duration high
+static const byte hpLIMIT = 40 / samplerate; //detection limit impluse duration low
 
 volatile byte highpulse =0; //count nsi period high
 volatile unsigned int lowpulse = 0; //count nsi period low
@@ -48,8 +48,8 @@ void setup()
 	pinMode(NSIpin, INPUT);  // Set the button as an input
 	digitalWrite(NSIpin, HIGH);  // Pull the button high
 
-	Serial.begin(115200); //This pipes to the serial monitor
-	Serial.println("Hallo World");
+	//Serial.begin(115200); //This pipes to the serial monitor
+	//Serial.println("Hallo World");
 
 	Timer1.initialize(1000*samplerate); // in us
 	Timer1.attachInterrupt(nsi_cnt_ISR);
