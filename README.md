@@ -12,7 +12,7 @@ for pin 9 and 10.
 
 <img src="https://github.com/antonmeyer/WaehlscheibeHID/blob/master/IMG_5230.JPG" height="256" width="342">
 
-If you connect it to your computer (OS does not matter, if it supports USB HID), you might get
+If you connect it to your computer (OS does not matter, as long it supports USB HID), you might get
 an error message. This is for the programming serial line, also implemented on that USB device.
 You can ignore that, after ..9 seconds rotory disk keyboard should be ready.
 
