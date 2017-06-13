@@ -3,7 +3,7 @@ This software is for an arduino pro micro (atmega32u4).
 It acts as an USB keyboard and converts impulses from a rotary disk
 into digits transmitted via USB to any software supporting keyboard.
 
-https://www.youtube.com/watch?v=h1p7Oikf-b4
+[example at youtube] (https://www.youtube.com/watch?v=h1p7Oikf-b4)
 
 impulse contact (nsi) is connected to pin 10 and nsa to pin 9. nsa get closed
 as soon disk is revolved. nsi starts generatiing impulses as soon
