@@ -6,7 +6,7 @@ into digits transmitted via USB to any software supporting keyboard.
 [example at youtube](https://www.youtube.com/watch?v=h1p7Oikf-b4)
 
 impulse contact (nsi) is connected to pin 10 and nsa to pin 9. nsa get closed
-as soon disk is revolved. nsi starts generatiing impulses as soon
+as soon disk is revolved. nsi starts generating impulses as soon
 disk is released and rotates back.
 
 Needs only 3 wires, for nsi, nsa and 1x ground to the 2 switches. internal pull-up is used
