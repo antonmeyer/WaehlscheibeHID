@@ -12,6 +12,9 @@ disk is released and rotates back.
 Needs only 3 wires, for nsi, nsa and 1x ground to the 2 switches. internal pull-up is used
 for pin 9 and 10.
 
+Uses TimerOne library. https://code.google.com/archive/p/arduino-timerone/downloads
+Search for how-to tutorials if it is your first arduino library you install.
+
 <img src="https://github.com/antonmeyer/WaehlscheibeHID/blob/master/IMG_5230.JPG" height="256" width="342">
 
 If you connect it to your computer (OS does not matter, as long it supports USB HID), you might get
