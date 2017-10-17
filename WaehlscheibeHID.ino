@@ -5,8 +5,8 @@
 
 //length of the level before valid - reflect the measurement period
 static const byte samplerate = 5; // ms
-static const byte lpLIMIT = 20 / samplerate; //detection limit impulse duration high
-static const byte hpLIMIT = 40 / samplerate; //detection limit impluse duration low
+static const byte lpLIMIT = 20 / samplerate; //detection limit impulse duration low
+static const byte hpLIMIT = 40 / samplerate; //detection limit impluse duration high
 
 volatile byte highpulse =0; //count nsi period high
 volatile unsigned int lowpulse = 0; //count nsi period low
